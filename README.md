@@ -18,7 +18,7 @@ Full-stack engineer with **6+ years of programming experience** (Python since 20
 - 💳 **Payment integrations shipped:** MercadoPago (Chile), Flow.cl, Google AdSense
 - 🎓 **Currently:** BEng/MEng Computer Engineering at Universidad de Talca (5-year internationally-accredited program, semester 5 of 10, expected 2029)
 - 🌐 **Languages:** Spanish (native), English (C1-C2 professional proficiency)
-- 📬 **Contact:** [YOUR_EMAIL]
+- 📬 **Contact:** [ddiegosebastianbb@gmail.com]
 
 > **Open to full-time roles with visa sponsorship in the Netherlands, Ireland, Germany, Australia, New Zealand, and similar markets.**
 
