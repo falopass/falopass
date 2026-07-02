@@ -2,8 +2,8 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:0f172a&height=200&section=header&text=Diego%20Bravo%20Opazo&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Engineer%20%E2%80%A2%20Indie%20Founder%20%E2%80%A2%20Chile&descSize=16&descAlignY=60&animation=fadeIn)
 
-[![Open to Relocate](https://img.shields.io/badge/🌍_Open_to_Relocate-Netherlands_·_Ireland_·_Germany_·_Australia_·_NZ-10b981?style=for-the-badge)](mailto:[YOUR_EMAIL])
-[![Visa Sponsorship](https://img.shields.io/badge/Visa_Sponsorship-Welcome-3b82f6?style=for-the-badge)](mailto:[YOUR_EMAIL])
+[![Open to Relocate](https://img.shields.io/badge/🌍_Open_to_Relocate-Netherlands_·_Ireland_·_Germany_·_Australia_·_NZ-10b981?style=for-the-badge)](mailto:[ddiegosebastianbb@gmail.com])
+[![Visa Sponsorship](https://img.shields.io/badge/Visa_Sponsorship-Welcome-3b82f6?style=for-the-badge)](mailto:[ddiegosebastianbb@gmail.com])
 
 </div>
 
@@ -144,7 +144,7 @@ Mobile app that replaces manual IMA (Environmental Institute) checks. Clustered 
 
 I'm actively looking for full-time engineering opportunities abroad. If your company sponsors visas for talented full-stack engineers, let's talk.
 
-[![Email](https://img.shields.io/badge/📬_Email-[YOUR_EMAIL]-ea4335?style=for-the-badge)](mailto:[YOUR_EMAIL])
+[![Email](https://img.shields.io/badge/📬_Email-[ddiegosebastianbb@gmail.com]-ea4335?style=for-the-badge)](mailto:[ddiegosebastianbb@gmail.com])
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([YOUR_LINKEDIN_URL])
 [![CV](https://img.shields.io/badge/📄_Download_CV-10b981?style=for-the-badge)](./Diego_CV_English.pdf)
 
@@ -187,7 +187,7 @@ Ingeniero full-stack con **6+ años de experiencia en programación** (Python de
 
 Actualmente busco oportunidades full-time de ingeniería en el extranjero. Si tu empresa patrocina visas para ingenieros full-stack con productos reales en su portafolio, conversemos.
 
-📬 [YOUR_EMAIL] · 💼 [LinkedIn]([YOUR_LINKEDIN_URL]) · 📄 [Descargar CV](./Diego_CV_English.pdf)
+📬 [ddiegosebastianbb@gmail.com] · 💼 [LinkedIn]([YOUR_LINKEDIN_URL]) · 📄 [Descargar CV](./Diego_CV_English.pdf)
 
 </details>
 
