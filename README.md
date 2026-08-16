@@ -1,14 +1,23 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=190&section=header&color=0:0C1210,50:1A2A24,100:0C1210&text=Diego%20Bravo%20Opazo&fontSize=42&fontColor=E7E2D4&fontAlignY=38&desc=Full-Stack%20Engineer%20%C2%B7%20Chile&descSize=15&descAlignY=60&animation=twinkling" width="100%" alt="Diego Bravo Opazo" />
+<img src="https://raw.githubusercontent.com/falopass/falopass/main/assets/banner.svg" width="100%" alt="Diego Bravo Opazo - full-stack engineer, Chile" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=17&duration=2800&pause=900&color=C9A36A&center=true&vCenter=true&width=760&height=34&lines=Codex+Orchestra+%C2%B7+local+control+plane+for+Codex;CalculaChile+%C2%B7+%2B2%2C000+organic+visits+%2F+month;Sitiazo+%C2%B7+production+websites+for+Chilean+SMBs)](https://github.com/falopass/Codex-Orchestra)
+
+<img src="https://streak-stats.demolab.com/?user=falopass&hide_border=true&background=0C1210&border=1A2A24&ring=C9A36A&fire=5EE4A3&currStreakNum=E7E2D4&currStreakLabel=C9A36A&sideLabels=E7E2D4&sideNums=E7E2D4&dates=8FA39A" alt="Contribution streak" />
+<img src="https://komarev.com/ghpvc/?username=falopass&style=flat-square&color=1F4B3A&label=profile+views" alt="Profile views" />
 
 </div>
 
 Full-stack engineer based in Chile. I design, build, deploy and operate what I ship: developer tooling, YMYL consumer products and client websites.
 
 Python since 2020 · Spanish (native) · English (C1–C2) · Ingeniería Civil en Computación, Universidad de Talca.
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,python,rust,vite,git,github,vercel,firebase,supabase,docker,linux" alt="Daily stack" />
+
+</div>
 
 ---
 
