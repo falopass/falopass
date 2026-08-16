@@ -4,7 +4,6 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=17&duration=2800&pause=900&color=C9A36A&center=true&vCenter=true&width=760&height=34&lines=Codex+Orchestra+%C2%B7+local+control+plane+for+Codex;CalculaChile+%C2%B7+%2B2%2C000+organic+visits+%2F+month;Sitiazo+%C2%B7+production+websites+for+Chilean+SMBs)](https://github.com/falopass/Codex-Orchestra)
 
-<img src="https://streak-stats.demolab.com/?user=falopass&hide_border=true&background=0C1210&border=1A2A24&ring=C9A36A&fire=5EE4A3&currStreakNum=E7E2D4&currStreakLabel=C9A36A&sideLabels=E7E2D4&sideNums=E7E2D4&dates=8FA39A" alt="Contribution streak" />
 <img src="https://komarev.com/ghpvc/?username=falopass&style=flat-square&color=1F4B3A&label=profile+views" alt="Profile views" />
 
 </div>
