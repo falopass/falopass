@@ -1,95 +1,45 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:0f172a&height=200&section=header&text=Diego%20Bravo%20Opazo&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Engineer%20%E2%80%A2%20Indie%20Founder%20%E2%80%A2%20Chile&descSize=16&descAlignY=60&animation=fadeIn)
+<img src="https://capsule-render.vercel.app/api?type=waving&height=190&section=header&color=0:0C1210,50:1A2A24,100:0C1210&text=Diego%20Bravo%20Opazo&fontSize=42&fontColor=E7E2D4&fontAlignY=38&desc=Full-Stack%20Engineer%20%C2%B7%20Chile&descSize=15&descAlignY=60&animation=twinkling" width="100%" alt="Diego Bravo Opazo" />
 
-[![Open to Relocate](https://img.shields.io/badge/🌍_Open_to_Relocate-Netherlands_·_Ireland_·_Germany_·_Australia_·_NZ-10b981?style=for-the-badge)](mailto:[ddiegosebastianbb@gmail.com])
-[![Visa Sponsorship](https://img.shields.io/badge/Visa_Sponsorship-Welcome-3b82f6?style=for-the-badge)](mailto:[ddiegosebastianbb@gmail.com])
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&weight=500&size=17&duration=2800&pause=900&color=C9A36A&center=true&vCenter=true&width=760&height=34&lines=Codex+Orchestra+%C2%B7+local+control+plane+for+Codex;CalculaChile+%C2%B7+%2B2%2C000+organic+visits+%2F+month;Sitiazo+%C2%B7+production+websites+for+Chilean+SMBs)](https://github.com/falopass/Codex-Orchestra)
 
 </div>
 
----
+Full-stack engineer based in Chile. I design, build, deploy and operate what I ship: developer tooling, YMYL consumer products and client websites.
 
-## 👋 About Me
-
-Full-stack engineer with **6+ years of programming experience** (Python since 2020) and **3+ years shipping production SaaS** as a solo indie founder from Chile. I design, build, deploy and support the products I release — from architecture and payments integration to marketing landing pages.
-
-- 🛠️ **What I do:** SaaS with AI, payments integrations for LATAM, cross-platform apps, web studios
-- 🧠 **Preferred stack:** Next.js 16 + FastAPI + Supabase/Firebase + OpenAI
-- 💳 **Payment integrations shipped:** MercadoPago (Chile), Flow.cl, Google AdSense
-- 🎓 **Currently:** BEng/MEng Computer Engineering at Universidad de Talca (5-year internationally-accredited program, semester 5 of 10, expected 2029)
-- 🌐 **Languages:** Spanish (native), English (C1-C2 professional proficiency)
-- 📬 **Contact:** [ddiegosebastianbb@gmail.com]
-
-> **Open to full-time roles with visa sponsorship in the Netherlands, Ireland, Germany, Australia, New Zealand, and similar markets.**
+Python since 2020 · Spanish (native) · English (C1–C2) · Ingeniería Civil en Computación, Universidad de Talca.
 
 ---
 
-## 🚀 Featured Products (Live in Production)
+## Flagship
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td>
 
-### 🧠 [CVListo](https://cvlisto.cl)
-**AI-powered CV optimizer for the Chilean job market**
+### [Codex Orchestra](https://github.com/falopass/Codex-Orchestra)
 
-Rewrites CVs using strict keyword mirroring to pass ATS filters. Tone calibration (Junior / Semi-Senior / Executive), Chilean data preservation (RUT/RUN), real payments with MercadoPago Chile, ATS scoring 0–100, cover letter generation, PDF export.
+**Windows-first local control plane for [Codex](https://github.com/openai/codex) and an external Codex Router.** It keeps Router health, logical team roles, managed project files and diagnostics coherent without becoming a second chat UI. Public surface is plugin-first: skills plus a local stdio MCP; the Tauri desktop app is the advanced UI.
 
-`Next.js 16` · `React 19` · `TypeScript` · `GPT-4o-mini` · `Firebase` · `Upstash Redis` · `MercadoPago` · `Vercel`
+- Redacted health for Codex, Router, providers and thread control; secrets never leave local stores
+- Router lifecycle (detect / doctor / start / restart / logs / update / rollback) behind `confirm=true`
+- Managed `AGENTS.md` writes with preview, backup, atomic rename and rollback
+- 13 MCP tools · MIT · CI on every push
 
-</td>
-<td width="50%" valign="top">
+[![CI](https://github.com/falopass/Codex-Orchestra/actions/workflows/ci.yml/badge.svg)](https://github.com/falopass/Codex-Orchestra/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-1F4B3A.svg)](https://github.com/falopass/Codex-Orchestra/blob/main/LICENSE)
+![Status](https://img.shields.io/badge/status-v0.1.0_alpha-C9A36A)
+![Rust](https://img.shields.io/badge/Rust-Tauri_2-DEA584?logo=rust&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-contracts-3178C6?logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-plugin_%2B_MCP-3776AB?logo=python&logoColor=white)
 
-### 🧮 [CalculaChile](https://calculadorachile.cl)
-**40 financial & legal calculators for Chile**
+```powershell
+codex plugin marketplace add falopass/Codex-Orchestra
+codex plugin add codex-orchestra@codex-orchestra
+```
 
-Salary, mortgage, tax, AFP comparison, government subsidies and more — all updated with 2026 values from the Central Bank of Chile API. AdSense-monetized, WCAG 2.1 AA compliant, Vitest test coverage.
-
-`Next.js 15` · `TypeScript` · `Three.js` · `Framer Motion` · `GSAP` · `Vitest` · `AdSense` · `Vercel`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎯 [QuizVerse](https://github.com/falopass/QuizVerse)
-**Bilingual editorial quiz platform**
-
-Editorial quizzes with personality — 493 real quizzes seeded (259 EN + 259 ES), shareable result pages, OG images, procedural + curated cover system, localized routes. Manual + AI quiz creation pipeline.
-
-`Next.js 16` · `React 19` · `TypeScript` · `Supabase` · `Vercel`
-
-</td>
-<td width="50%" valign="top">
-
-### 🎨 [Sitiazo.cl](https://sitiazo.cl)
-**Boutique web studio for Chilean SMBs**
-
-Fast websites for small businesses — from $199,000 CLP, delivered in 7 days. Design system with reusable components, static export, blog with 3 posts, WhatsApp + Cal.com integration for booking.
-
-`Next.js 16` · `Tailwind v4` · `TypeScript` · `Framer Motion 11` · `Static Export`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🏖️ AquaCheck Floripa
-**Real-time beach water quality — Santa Catarina 🇧🇷**
-
-Mobile app that replaces manual IMA (Environmental Institute) checks. Clustered map, sanitary status updated every 30 minutes, push notifications. Published on Google Play.
-
-`Expo 54` · `React Native` · `FastAPI` · `Firebase` · `Cloud Run` · `Google Maps API`
-
-</td>
-<td width="50%" valign="top">
-
-### 🎓 Universidad de Talca
-**BEng/MEng Computer Engineering (Ingeniería Civil en Computación)**
-
-5-year integrated program (310 credits ≈ 300+ ECTS), internationally accredited (maximum 7-year certification). Three-area curriculum: algorithmics, software engineering, computer systems. Elective specialization in AI.
-
-`Data Structures` · `Algorithms` · `OS & Distributed Systems` · `Software Engineering` · `Databases` · `Computer Architecture`
+`orchestra_status` · `orchestra_doctor` · `orchestra_models` · `orchestra_team` · `orchestra_router` · `orchestra_worktrees` · +7 more
 
 </td>
 </tr>
@@ -97,106 +47,92 @@ Mobile app that replaces manual IMA (Environmental Institute) checks. Clustered 
 
 ---
 
-## 🛠️ Tech Stack
+## In production
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [CalculaChile](https://calculadorachile.cl)
+
+Labor, tax and finance calculators for Chile. **YMYL vertical**: every formula maps to a verified official source and a test. Live UF / UTM / USD / EUR from the Central Bank with snapshot fallback. SEO-first, AdSense-monetized.
+
+**+2,000 organic visits per month.**
+
+39 active calculators · 12 pillar guides · blog
+
+[Repo](https://github.com/falopass/calculadorachile) · [Sueldo líquido](https://calculadorachile.cl/calculadoras/calculadora-sueldo-liquido) · [IVA](https://calculadorachile.cl/calculadoras/calculadora-iva) · [Finiquito](https://calculadorachile.cl/calculadoras/calculadora-finiquito)
+
+`Next.js 15` · `React 19` · `TypeScript` · `Tailwind 3` · `Vitest` · `Vercel`
+
+</td>
+<td width="50%" valign="top">
+
+### [Sitiazo](https://sitiazo.cl)
+
+Boutique web studio for Chilean SMBs. Conversion-oriented sites, static export, delivered in 7 days, from **$79,990 CLP**. Published case study: Roma Crochet.
+
+[Repo](https://github.com/falopass/s-tialo) · [sitiazo.cl](https://sitiazo.cl)
+
+`Next.js 16` · `TypeScript` · `Tailwind v4` · `Framer Motion 11` · static export
+
+</td>
+</tr>
+</table>
+
+---
+
+## Stack across these projects
+
+| Layer | Choices |
+|-------|---------|
+| Tooling | Rust / Tauri 2 · TypeScript contracts · Python plugin + MCP |
+| Web | Next.js 15–16 · React 19 · TypeScript · Tailwind · Framer Motion |
+| Quality | Vitest · typecheck · CI · YMYL audit scripts |
+| Shipping | Vercel · Windows-first local tooling |
+
+---
+
+## Now
+
+- Hardening Orchestra `v0.1.0` alpha: plugin, doctor, team roles, Router lifecycle
+- Keeping CalculaChile sources verified and public URLs stable
+- Growing Sitiazo as the client-facing channel
+
+---
+
+## Stats
 
 <div align="center">
 
-| Layer | Technologies |
-|-------|-------------|
-| **Frontend** | ![Next.js](https://img.shields.io/badge/Next.js_16-black?style=flat-square&logo=nextdotjs) ![React](https://img.shields.io/badge/React_19-20232a?style=flat-square&logo=react&logoColor=61dafb) ![React Native](https://img.shields.io/badge/React_Native-20232a?style=flat-square&logo=react&logoColor=61dafb) ![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo) ![TypeScript](https://img.shields.io/badge/TypeScript-007acc?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind_v4-38bdf8?style=flat-square&logo=tailwindcss&logoColor=white) ![Framer](https://img.shields.io/badge/Framer_Motion-0055ff?style=flat-square&logo=framer&logoColor=white) |
-| **Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy_2.0-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic_v2-E92063?style=flat-square&logo=pydantic&logoColor=white) ![Alembic](https://img.shields.io/badge/Alembic-6BA539?style=flat-square) |
-| **Data** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ecf8e?style=flat-square&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/Firestore-ffca28?style=flat-square&logo=firebase&logoColor=black) ![Upstash](https://img.shields.io/badge/Upstash_Redis-00e9a3?style=flat-square&logo=redis&logoColor=white) |
-| **Infrastructure** | ![Vercel](https://img.shields.io/badge/Vercel-black?style=flat-square&logo=vercel) ![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285f4?style=flat-square&logo=googlecloud&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ed?style=flat-square&logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Hetzner](https://img.shields.io/badge/Hetzner_VPS-D50C2D?style=flat-square) ![Cloudflare](https://img.shields.io/badge/Cloudflare_R2-f38020?style=flat-square&logo=cloudflare&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
-| **AI & LLMs** | ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Anthropic](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white) ![DeepSeek](https://img.shields.io/badge/DeepSeek-4d6bfe?style=flat-square) ![Multi-model](https://img.shields.io/badge/Multi--Model_Orchestration-8b5cf6?style=flat-square) |
-| **Payments & Ops** | ![MercadoPago](https://img.shields.io/badge/MercadoPago-009ee3?style=flat-square) ![Flow](https://img.shields.io/badge/Flow.cl-0d9488?style=flat-square) ![AdSense](https://img.shields.io/badge/Google_AdSense-4285f4?style=flat-square&logo=google-ads&logoColor=white) ![Resend](https://img.shields.io/badge/Resend-000000?style=flat-square&logo=resend&logoColor=white) |
-| **Extras** | ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js) ![GSAP](https://img.shields.io/badge/GSAP-88ce02?style=flat-square&logo=greensock&logoColor=black) ![Vitest](https://img.shields.io/badge/Vitest-6e9f18?style=flat-square&logo=vitest&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
-| **Hardware** | PC building · Hardware troubleshooting · Basic electronics · Linux system administration |
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=falopass&show_icons=true&hide_border=true&bg_color=0C1210&title_color=C9A36A&icon_color=5EE4A3&text_color=E7E2D4" alt="GitHub stats" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=falopass&layout=compact&hide_border=true&bg_color=0C1210&title_color=C9A36A&text_color=E7E2D4&langs_count=6" alt="Top languages" />
 
 </div>
 
 ---
 
-## 🎯 Currently Working On
+## Contact
 
-- 🚀 Taking **QuizVerse** from prelaunch to public launch
-- 💳 Adding **Webpay** and **Khipu** to CVListo for full Chilean payment coverage
-- 🤖 Experimenting with **AI agents** for onboarding and support flows
-- 📈 Optimizing conversion funnels on CVListo and CalculaChile
-- 🎨 Growing **Sitiazo.cl** as a recurring client acquisition channel
-- 🌍 Preparing for international relocation to the EU or Oceania
+[ddiegosebastianbb@gmail.com](mailto:ddiegosebastianbb@gmail.com)
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=falopass&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=10b981&icon_color=10b981&text_color=ffffff"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=falopass&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=10b981&text_color=ffffff&langs_count=8"/>
-
-</div>
-
----
-
-## 💬 Get in Touch
-
-<div align="center">
-
-I'm actively looking for full-time engineering opportunities abroad. If your company sponsors visas for talented full-stack engineers, let's talk.
-
-[![Email](https://img.shields.io/badge/📬_Email-[ddiegosebastianbb@gmail.com]-ea4335?style=for-the-badge)](mailto:[ddiegosebastianbb@gmail.com])
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([YOUR_LINKEDIN_URL])
-[![CV](https://img.shields.io/badge/📄_Download_CV-10b981?style=for-the-badge)](./Diego_CV_English.pdf)
-
-</div>
-
----
+Open to full-time roles with visa sponsorship (Netherlands, Ireland, Germany, Australia, New Zealand).
 
 <details>
-<summary><b>🇪🇸 Versión en español</b></summary>
+<summary>Español</summary>
 
-<br>
+Ingeniero full-stack en Chile. Diseño, construyo, despliego y opero lo que publico.
 
-## 👋 Sobre mí
+- **[Codex Orchestra](https://github.com/falopass/Codex-Orchestra)** (principal): control plane local para Codex y Router externo. Plugin + MCP stdio, desktop Tauri como UI avanzada. Alpha `v0.1.0`, MIT.
+- **[CalculaChile](https://calculadorachile.cl)**: 39 calculadoras laborales, tributarias y financieras con fuentes oficiales verificadas y tests. +2.000 visitas orgánicas/mes.
+- **[Sitiazo](https://sitiazo.cl)**: estudio web para pymes chilenas, static export, entrega en 7 días, desde $79.990.
 
-Ingeniero full-stack con **6+ años de experiencia en programación** (Python desde 2020) y **3+ años enviando SaaS a producción** como fundador indie en Chile. Diseño, construyo, hago deploy y doy soporte a los productos que lanzo — desde arquitectura e integración de pagos hasta landings de marketing.
-
-- 🛠️ **Qué hago:** SaaS con IA, integraciones de pagos para LATAM, apps móviles, estudios web
-- 🧠 **Stack preferido:** Next.js 16 + FastAPI + Supabase/Firebase + OpenAI
-- 💳 **Pagos integrados:** MercadoPago (Chile), Flow.cl, Google AdSense
-- 🎓 **Actualmente:** Ingeniería Civil en Computación en Universidad de Talca (programa integrado de 5 años, semestre 5 de 10, egreso esperado 2029)
-- 🌐 **Idiomas:** Español (nativo), Inglés (C1-C2)
-
-## 🚀 Productos en producción
-
-- **[CVListo](https://cvlisto.cl)** — Optimizador de CVs con IA para el mercado chileno
-- **[CalculaChile](https://calculadorachile.cl)** — 40 calculadoras financieras y legales para Chile
-- **[QuizVerse](https://github.com/falopass/QuizVerse)** — Plataforma editorial de quizzes bilingüe
-- **[Sitiazo.cl](https://sitiazo.cl)** — Estudio web boutique para pymes chilenas
-- **AquaCheck Floripa** — App móvil de calidad de agua para playas de Santa Catarina (Brasil)
-
-## 🎯 En qué estoy ahora
-
-- Llevando **QuizVerse** de prelanzamiento a lanzamiento público
-- Sumando **Webpay** y **Khipu** a CVListo
-- Experimentando con **agentes de IA** para onboarding y soporte
-- Optimizando funnels de conversión en CVListo y CalculaChile
-- Preparando reubicación internacional a Europa u Oceanía
-
-## 💬 Contacto
-
-Actualmente busco oportunidades full-time de ingeniería en el extranjero. Si tu empresa patrocina visas para ingenieros full-stack con productos reales en su portafolio, conversemos.
-
-📬 [ddiegosebastianbb@gmail.com] · 💼 [LinkedIn]([YOUR_LINKEDIN_URL]) · 📄 [Descargar CV](./Diego_CV_English.pdf)
+Contacto: [ddiegosebastianbb@gmail.com](mailto:ddiegosebastianbb@gmail.com)
 
 </details>
 
----
-
 <div align="center">
 
-*Building from Chile 🇨🇱 · Ready to relocate globally 🌍*
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:0f172a&height=100&section=footer)
+<img src="https://capsule-render.vercel.app/api?type=waving&height=90&section=footer&color=0:0C1210,50:1A2A24,100:0C1210&animation=twinkling" width="100%" alt="" />
 
 </div>
