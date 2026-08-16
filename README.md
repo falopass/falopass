@@ -101,17 +101,6 @@ Boutique web studio for Chilean SMBs. Conversion-oriented sites, static export, 
 
 ---
 
-## Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=falopass&show_icons=true&hide_border=true&bg_color=0C1210&title_color=C9A36A&icon_color=5EE4A3&text_color=E7E2D4" alt="GitHub stats" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=falopass&layout=compact&hide_border=true&bg_color=0C1210&title_color=C9A36A&text_color=E7E2D4&langs_count=6" alt="Top languages" />
-
-</div>
-
----
-
 ## Contact
 
 [ddiegosebastianbb@gmail.com](mailto:ddiegosebastianbb@gmail.com)
