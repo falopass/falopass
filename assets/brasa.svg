@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="BRASA Chile: wildfire alerts by place, from satellite detections every 10 minutes">
+  <style>
+    .m{font-family:ui-monospace,SFMono-Regular,Consolas,'Cascadia Mono',Menlo,monospace}
+    .s{font-family:Georgia,'Times New Roman',serif}
+    .wind{stroke-dasharray:5 6;animation:flow 1.2s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-22}}
+    .u{animation:blink 1.6s steps(1) infinite}
+    @keyframes blink{50%{opacity:.35}}
+    @media (prefers-reduced-motion:reduce){.wind,.u{animation:none}}
+  </style>
+  <defs>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#FF9A5A" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#E8743B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#E8743B" stop-opacity="0"/>
+      <stop offset="1" stop-color="#E8743B" stop-opacity=".28"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="998" height="258" rx="18" fill="#150F0B" stroke="#4E2716"/>
+
+  <text x="48" y="58" class="m" font-size="12" fill="#E8743B" letter-spacing="2.5">02 — BRASA CHILE · v0.6 PROTOTYPE</text>
+  <text x="48" y="114" class="s" font-size="48" fill="#F1E6DA">BRASA</text>
+  <text x="48" y="148" class="s" font-size="19" font-style="italic" fill="#BFA896">Wildfire alerts for the places you care about.</text>
+  <text x="48" y="198" class="m" font-size="14">
+    <tspan fill="#E8743B" font-weight="700">GOES</tspan><tspan fill="#A08A7A"> every 10 min</tspan>
+    <tspan dx="14" fill="#5A3322">/</tspan>
+    <tspan dx="14" fill="#E8743B" font-weight="700">VIIRS · FIRMS · CONAF</tspan>
+  </text>
+  <text x="48" y="226" class="m" font-size="12" fill="#6E5A4E">30-30-30 risk per comuna · Web Push · Telegram</text>
+
+  <g class="m">
+    <circle cx="756" cy="130" r="100" fill="#110B08" stroke="#3A1F13"/>
+    <circle cx="756" cy="130" r="84" fill="none" stroke="#5A3322" stroke-dasharray="2 5"/>
+    <circle cx="756" cy="130" r="40" fill="none" stroke="#7A4128" stroke-dasharray="2 4"/>
+    <path d="M656 130H856M756 30V230" stroke="#24150E"/>
+    <text x="800" y="125" font-size="10" fill="#7A5A48">2 km</text>
+    <text x="843" y="125" font-size="10" fill="#6E5A4E">5 km</text>
+
+    <g>
+      <path d="M756 130L856 130A100 100 0 0 0 826.7 59.3Z" fill="url(#sweep)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 756 130" to="-360 756 130" dur="6s" repeatCount="indefinite"/>
+    </g>
+
+    <path class="wind" d="M808 88L766 122" stroke="#E8743B" stroke-width="1.6" fill="none"/>
+    <path d="M766 122l2-9M766 122l9-2" stroke="#E8743B" stroke-width="1.6" fill="none"/>
+
+    <circle cx="812" cy="84" r="10" fill="url(#glow)">
+      <animate attributeName="r" values="6;16;6" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="812" cy="84" r="3.5" fill="#FFB27A"/>
+    <text x="826" y="80" font-size="10" fill="#E8743B">hotspot</text>
+
+    <path d="M749 134v8h14v-8M746 136l10-9 10 9" fill="none" stroke="#F1E6DA" stroke-width="1.6" stroke-linejoin="round"/>
+    <text x="756" y="160" font-size="10" fill="#BFA896" text-anchor="middle">your place</text>
+
+    <g font-size="10.5" fill="#6E5A4E">
+      <text x="560" y="170">wind from</text>
+      <text x="560" y="184">hotspot to</text>
+      <text x="560" y="198">your place</text>
+    </g>
+    <text class="u" x="560" y="218" font-size="11" font-weight="700" fill="#FF8A4C" letter-spacing="2">= URGENT</text>
+  </g>
+</svg>

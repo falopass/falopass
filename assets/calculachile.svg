@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="CalculaChile: 46 labor, tax and finance calculators for Chile">
+  <style>
+    .m{font-family:ui-monospace,SFMono-Regular,Consolas,'Cascadia Mono',Menlo,monospace}
+    .s{font-family:Georgia,'Times New Roman',serif}
+    .l{opacity:0;animation:in .45s ease-out forwards}
+    .l1{animation-delay:.4s}.l2{animation-delay:1s}.l3{animation-delay:1.6s}.l4{animation-delay:2.2s}.l5{animation-delay:2.8s}.l6{animation-delay:3.5s}
+    @keyframes in{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+    .p{animation:pulse 2s ease-in-out infinite}
+    @keyframes pulse{50%{opacity:.2}}
+    @media (prefers-reduced-motion:reduce){.l,.p{animation:none}.l{opacity:1}}
+  </style>
+  <rect x="1" y="1" width="998" height="258" rx="18" fill="#0D1713" stroke="#1F4B3A"/>
+
+  <text x="48" y="58" class="m" font-size="12" fill="#5EE4A3" letter-spacing="2.5">01 — CALCULADORACHILE.CL</text>
+  <text x="48" y="114" class="s" font-size="48" fill="#E7E2D4">CalculaChile</text>
+  <text x="48" y="148" class="s" font-size="19" font-style="italic" fill="#9FB3A9">Labor, tax and finance calculators for Chile.</text>
+  <text x="48" y="198" class="m" font-size="14">
+    <tspan fill="#5EE4A3" font-weight="700">46</tspan><tspan fill="#8FA39A"> calculators</tspan>
+    <tspan dx="14" fill="#2C5A47">/</tspan>
+    <tspan dx="14" fill="#5EE4A3" font-weight="700">+2,000</tspan><tspan fill="#8FA39A"> organic visits / mo</tspan>
+  </text>
+  <text x="48" y="226" class="m" font-size="12" fill="#5C6E65">YMYL · official source → formula → test → page</text>
+
+  <g class="m">
+    <rect x="560" y="30" width="392" height="200" rx="12" fill="#0A120F" stroke="#183A2D"/>
+    <text x="584" y="60" font-size="12" fill="#5C6E65">// calculadora-sueldo-liquido</text>
+    <g font-size="14.5">
+      <text class="l l1" y="94"><tspan x="584" fill="#E7E2D4">líquido</tspan><tspan x="668" fill="#C9A36A">=</tspan><tspan x="694" fill="#E7E2D4">sueldo bruto</tspan></text>
+      <text class="l l2" y="118"><tspan x="668" fill="#C9A36A">−</tspan><tspan x="694" fill="#B9C4BD">AFP</tspan></text>
+      <text class="l l3" y="142"><tspan x="668" fill="#C9A36A">−</tspan><tspan x="694" fill="#B9C4BD">salud</tspan></text>
+      <text class="l l4" y="166"><tspan x="668" fill="#C9A36A">−</tspan><tspan x="694" fill="#B9C4BD">seguro de cesantía</tspan></text>
+      <text class="l l5" y="190"><tspan x="668" fill="#C9A36A">−</tspan><tspan x="694" fill="#B9C4BD">impuesto único</tspan></text>
+    </g>
+    <g class="l l6" font-size="11.5">
+      <circle class="p" cx="590" cy="211" r="3.5" fill="#5EE4A3"/>
+      <text x="602" y="215" fill="#8FA39A">UF · UTM · USD · EUR  ← Banco Central, live</text>
+    </g>
+  </g>
+</svg>
