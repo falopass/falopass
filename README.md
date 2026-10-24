@@ -5,20 +5,20 @@
 <p align="center">
   <a href="mailto:ddiegosebastianbb@gmail.com"><img src="https://img.shields.io/badge/email-ddiegosebastianbb%40gmail.com-C9A36A?style=flat-square&labelColor=0C1210" alt="Email" /></a>
   <img src="https://img.shields.io/badge/based_in-Regi%C3%B3n_del_Maule%2C_Chile-5EE4A3?style=flat-square&labelColor=0C1210" alt="Based in Región del Maule, Chile" />
-  <img src="https://img.shields.io/badge/open_to-visa--sponsored_roles-E8743B?style=flat-square&labelColor=0C1210" alt="Open to visa-sponsored roles" />
+  <img src="https://img.shields.io/badge/aka-Sovran-E8743B?style=flat-square&labelColor=0C1210" alt="aka Sovran" />
 </p>
 
 ```text
 diego@maule:~$ whoami
 
    ▗▖   arica          name       Diego Bravo Opazo
+   ▐▌                  aka        Sovran
    ▐▌                  role       full-stack engineer, solo builder
-   ▐▌                  does       design · build · deploy · operate
-   ▐▌   atacama        school     Ing. Civil en Computación · Universidad de Talca
-   ▐▌                  python     since 2020
-   ▐▙   santiago       speaks     Spanish (native) · English (C1–C2)
-   ▐█ ◄── maule        open to    full-time roles with visa sponsorship
-   ▐▌                             NL · IE · DE · AU · NZ
+   ▐▌   atacama        does       design · build · deploy · operate
+   ▐▌                  school     Ing. Civil en Computación · Universidad de Talca
+   ▐▙   santiago       python     since 2020
+   ▐█ ◄── maule        home       Región del Maule, Chile
+   ▐▌                  speaks     Spanish (native) · English (C1–C2)
    ▝▙   biobío
     ▐▌
     ▝▚▖ chiloé
